@@ -3,10 +3,10 @@
 # https://www.playframework.com/documentation/latest/ScalaRouting
 # ~~~~
 
-# An example controller showing a sample home page
+# A controller showing a home page
 GET     /                           controllers.HomeController.index()
 
-# My radio controller
+# My artings controllers
 GET     /paintings                  controllers.PaintingsController.paintings
 GET     /poetry                     controllers.PoetryController.poetry
 
