@@ -4,13 +4,13 @@
 }
 
 @font-face {
-    font-family: "runic";
-    src: url(/assets/fonts/runic.ttf);
+    font-family: "pushkin";
+    src: url(/assets/fonts/Pushkin.ttf);
 }
 
 
 body {
-    font-family: "newspaper", "runic";
+    font-family: "newspaper", "pushkin";
     background-image: url(/assets/images/paper.jpg);
     background-size: 100% 100%;
 }
