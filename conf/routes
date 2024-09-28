@@ -9,9 +9,13 @@ GET     /                           controllers.HomeController.index()
 # My artings controllers
 GET     /paintings                  controllers.PaintingsController.paintings
 GET     /poetry                     controllers.PoetryController.poetry
+GET     /cinema                     controllers.CinemaController.cinema
+
+# Contacts controller
+GET     /contacts                   controllers.ContactsController.contacts
 
 # Clicks controller
-GET     /click                          controllers.ClickController.click
+GET     /click                      controllers.ClickController.click
 
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)
