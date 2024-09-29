@@ -1,0 +1,6 @@
+@(title: String, name: String)
+
+@main(title) {
+<h1>@title</h1>
+<img title="@title" src="@routes.Assets.versioned(s"images/$name")" style="max-width: 95%;">
+}

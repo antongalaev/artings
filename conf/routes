@@ -8,6 +8,7 @@ GET     /                           controllers.HomeController.index()
 
 # My artings controllers
 GET     /paintings                  controllers.PaintingsController.paintings
+GET     /paintings/:name            controllers.PaintingsController.painting(name)
 GET     /poetry                     controllers.PoetryController.poetry
 GET     /cinema                     controllers.CinemaController.cinema
 
