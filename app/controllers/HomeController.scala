@@ -12,6 +12,6 @@ import play.api.mvc._
 class HomeController @Inject()(cc: ControllerComponents) extends AbstractController(cc) {
 
   def index = Action {
-    Ok(views.html.index("Anton Galaev Artings"))
+    Ok(views.html.index("Anton Galaev"))
   }
 }
