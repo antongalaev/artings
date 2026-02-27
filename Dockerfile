@@ -1,4 +1,4 @@
-FROM openjdk:21-slim
+FROM eclipse-temurin:21-noble
 
 WORKDIR /app
 COPY target/universal/artings-2.0.tgz /app/
